@@ -14,7 +14,7 @@ export default defineConfig({
         if (!args.viteConfig.isProduction) return;
 
         // copy the index.html to 404.html for GH Pages
-        let buildPath = args.viteConfig.build.outDir;
+        const buildPath = args.viteConfig.build.outDir;
         copyFileSync(
           join(buildPath, "index.html"),
           join(buildPath, "404.html"),
