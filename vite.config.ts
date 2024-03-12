@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [
     remix({
       ssr: false,
+      basename: "/remix-gh-pages/",
     }),
     tsconfigPaths(),
   ],
