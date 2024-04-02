@@ -1,6 +1,8 @@
-# templates/spa
+# Deploying Remix on GitHub Pages
 
-This template leverages [Remix SPA Mode](https://remix.run/docs/en/main/future/spa-mode) and the [Remix Vite Plugin](https://remix.run/docs/en/main/future/vite) to build your app as a Single-Page Application using [Client Data](https://remix.run/docs/en/main/guides/client-data) for all of your data loads and mutations.
+This is a simple demo of how to deploy a Remix app with `ssr: false` to [GitHub Pages](https://pages.github.com/) via [GitHub Actions](https://github.com/features/actions)
+
+[Watch the tutorial on YouTube 🎥](https://www.youtube.com/watch?v=EO_-KwSslWQ)
 
 ## Setup
 
